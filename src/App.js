@@ -32,7 +32,7 @@ function App() {
             events: {
               onClick: {
                 enable: true,
-                mode: "push",
+                mode: "attract",
               },
               onHover: {
                 enable: true,
@@ -58,10 +58,10 @@ function App() {
           },
           particles: {
             color: {
-              value: "ff0000",
+              value: "#61dafb",
             },
             links: {
-              color: "#ffffff",
+              color: "#282c34",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -76,6 +76,7 @@ function App() {
               // outMode: "bounce",
               random: true,
               speed: 1,
+              maxspeed: 3,
               straight: true,
             },
             number: {
