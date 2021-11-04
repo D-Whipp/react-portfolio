@@ -2,6 +2,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Particles from "react-tsparticles";
 
@@ -104,6 +106,8 @@ function App() {
       />
       <Navbar></Navbar>
       <Header></Header>
+      <About></About>
+      <Projects></Projects>
       <Footer></Footer>
     </>
   );

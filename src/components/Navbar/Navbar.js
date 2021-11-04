@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
 // React font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -29,12 +28,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="www.google.com">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="www.google.com">
+              <a className="nav-link" href="#about-me">
                 About Me
               </a>
             </li>
