@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="www.google.com">
+        <a className="navbar-brand" href="/">
           <p class="logo">David's Portfolio</p>
         </a>
         <button
@@ -44,7 +44,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="www.google.com">
+              <a className="nav-link" href="#resume">
                 Resume
               </a>
             </li>

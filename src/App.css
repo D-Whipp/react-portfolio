@@ -168,7 +168,7 @@ nav ul li {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
   z-index: 1;
 }
 
@@ -295,20 +295,43 @@ nav ul li {
 /* ********** Contact ************ */
 #contact-me {
   height: 3rem;
-  position: fixed;
-  bottom: 55px;
-  z-index: 44333;
+  /* position: fixed; */
+  /* bottom: 55px; */
+  margin-top: 0.5rem;
+  z-index: 2;
+}
+
+#contact-me form input {
+  border: 2px var(--secondary-color) solid;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+}
+
+/* *************** Resume ************* */
+.resume-form {
+  background-color: var(--secondary-color);
+  height: 100%;
+  width: 99vw;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.resume-form h1 {
+  color: var(--primary-blue);
+  margin: 0 auto;
 }
 
 /* ******** Footer ******** */
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
+  /* width: 100%; */
   background-color: var(--secondary-color);
   color: var(--primary-blue);
   text-align: center;
   z-index: 2;
-  padding-top: 10px;
+  padding: 10px 0;
 }
