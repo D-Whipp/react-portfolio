@@ -157,6 +157,10 @@ nav ul li {
   text-decoration: none;
 }
 
+.header-wrapper .main-info form {
+  z-index: 3;
+}
+
 /* ******** TS Particles ******** */
 #tsparticles {
   position: absolute;
@@ -198,17 +202,6 @@ nav ul li {
 }
 
 /* ********* Projects ********* */
-/* .card-deck {
-  display: flex;
-  position: absolute;
-  z-index: 100;
-} */
-/* 
-.content-container {
-  z-index: 44;
-  height: 20rem;
-} */
-
 .carousel-item {
   background-color: var(--primary-blue);
   background-image: url(../src/images/davids-avatar.jpg);
@@ -297,6 +290,14 @@ nav ul li {
 
 .sr-only {
   z-index: 4;
+}
+
+/* ********** Contact ************ */
+#contact-me {
+  height: 3rem;
+  position: fixed;
+  bottom: 55px;
+  z-index: 44333;
 }
 
 /* ******** Footer ******** */
