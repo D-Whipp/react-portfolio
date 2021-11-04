@@ -64,10 +64,11 @@ function App() {
               value: "#61dafb",
             },
             links: {
-              color: "#282c34",
+              // color: "#282c34",
+              color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.9,
               width: 1,
             },
             collisions: {
@@ -87,7 +88,7 @@ function App() {
                 enable: true,
                 value_area: 1000,
               },
-              value: 100,
+              value: 30,
             },
             opacity: {
               value: 0.5,

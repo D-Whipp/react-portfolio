@@ -50,7 +50,8 @@ body {
 
 /* ***************** NAVBAR ******************** */
 .logo {
-  color: var(--primary-blue) !important;
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
   font-size: 2rem !important;
   margin: 1.5rem 0 auto 2rem;
 }
@@ -74,8 +75,9 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-blue) !important;
-  font-size: 0.9rem !important;
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
+  font-size: 1.2rem !important;
   border-top: 0.15rem solid var(--secondary-color);
 }
 
@@ -158,6 +160,9 @@ nav ul li {
 /* ******** TS Particles ******** */
 #tsparticles {
   position: absolute;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
   height: 100vh;
   width: 100vw;
   z-index: 1;
@@ -187,9 +192,111 @@ nav ul li {
   line-height: 1.5;
   word-spacing: 0.3rem;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   z-index: 2;
+}
+
+/* ********* Projects ********* */
+/* .card-deck {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+} */
+/* 
+.content-container {
+  z-index: 44;
+  height: 20rem;
+} */
+
+.carousel-item {
+  background-color: var(--primary-blue);
+  background-image: url(../src/images/davids-avatar.jpg);
+}
+
+.horiseon-container {
+  /* background-color: var(--primary-blue); */
+  /* height: 100%; */
+  height: 35rem;
+  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
+  z-index: 2;
+}
+
+.horsieon_image {
+  background: url(../src/images/horiseon-project.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.camping_buddy_image {
+  background: url(../src/images/campingBuddyScreenshot.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.static_port_image {
+  background: url(../src/images/davids-avatar.jpg) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.git_it_done_image {
+  background: url(../src/images/git-it-done-screenshot.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.budget_tracker_image {
+  background: url(../src/images/budget-tracker-screenshot.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.food_festival_image {
+  background: url(../src/images/food-festival.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.project-title {
+  /* font-family: "Rubik", sans-serif;
+  font-size: 3rem; */
+  text-decoration: none;
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
+  font-size: 2rem !important;
+  margin: 1.5rem 0 auto 2rem;
+}
+
+.sr-only {
+  z-index: 4;
 }
 
 /* ******** Footer ******** */

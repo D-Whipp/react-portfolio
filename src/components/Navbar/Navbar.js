@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="www.google.com">
-          <p class="logo">Portfolio</p>
+          <p class="logo">David's Portfolio</p>
         </a>
         <button
           className="navbar-toggler"
@@ -38,7 +38,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="www.google.com">
+              <a className="nav-link" href="#projects">
                 Portfolio
               </a>
             </li>
