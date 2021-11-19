@@ -44,7 +44,11 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#resume">
+              <a
+                className="nav-link"
+                href="https://docs.google.com/document/d/1_NutIvUj36eHWeuiLrZqElTc1U--REEkUjQ60fSyCNo/edit?usp=sharing"
+                target="_blank"
+              >
                 Resume
               </a>
             </li>
@@ -56,3 +60,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{
+  /* <a href="https://docs.google.com/document/d/1_NutIvUj36eHWeuiLrZqElTc1U--REEkUjQ60fSyCNo/edit#heading=h.y7d3xdxnr44m"> */
+}

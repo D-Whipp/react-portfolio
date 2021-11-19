@@ -76,6 +76,18 @@ function Projects() {
               </a>
             </div>
           </div>
+          {/* carousel 7 */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://obscure-woodland-80927.herokuapp.com/"
+                target="_blank"
+              >
+                <p className="project-title">Star Talk</p>
+                <div className="star_talk_image"></div>
+              </a>
+            </div>
+          </div>
         </div>
         <a
           className="carousel-control-prev"

@@ -197,7 +197,7 @@ nav ul li {
   word-spacing: 0.3rem;
   justify-content: center;
   /* position: absolute; */
-  padding: 1.5rem; 
+  padding: 1.5rem;
   text-align: center;
   z-index: 2;
 }
@@ -279,6 +279,16 @@ nav ul li {
   margin: 0 auto;
 }
 
+.star_talk_image {
+  background: url(../src/images/star-talk.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
 .project-title {
   /* font-family: "Rubik", sans-serif;
   font-size: 3rem; */
@@ -321,6 +331,16 @@ nav ul li {
 
 .resume-form h1 {
   color: var(--primary-blue);
+  margin: 0 auto;
+}
+
+.resume-doc {
+  background: url(../src/images/Test\ Resume.pdf) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
   margin: 0 auto;
 }
 
