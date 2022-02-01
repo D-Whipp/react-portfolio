@@ -205,7 +205,8 @@ nav ul li {
 /* ********* Projects ********* */
 .carousel-item {
   background-color: var(--primary-blue);
-  background-image: url(../src/images/davids-avatar.jpg);
+  /* background-image: url(../src/images/davids-avatar.jpg); */
+  background-image: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg);
 }
 
 .horiseon-container {
@@ -220,7 +221,11 @@ nav ul li {
 }
 
 .horsieon_image {
-  background: url(../src/images/horiseon-project.png) no-repeat;
+  /* background: url(../src/images/horiseon-project.png) no-repeat; */
+  /* background: url(../src/images/resized-images/resized-1000W-px-horiseon-project.jpg)
+    no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-horiseon-project.jpg)
+    no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -230,7 +235,10 @@ nav ul li {
 }
 
 .camping_buddy_image {
-  background: url(../src/images/campingBuddyScreenshot.png) no-repeat;
+  /* background: url(../src/images/campingBuddyScreenshot.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-campingBuddyScreenshot.png)
+    no-repeat;
+
   position: relative;
   background-size: cover;
   background-position: center;
@@ -240,7 +248,10 @@ nav ul li {
 }
 
 .static_port_image {
-  background: url(../src/images/davids-avatar.jpg) no-repeat;
+  /* background: url(../src/images/davids-avatar.jpg) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg)
+    no-repeat;
+
   position: relative;
   background-size: cover;
   background-position: center;
@@ -250,7 +261,8 @@ nav ul li {
 }
 
 .git_it_done_image {
-  background: url(../src/images/git-it-done-screenshot.png) no-repeat;
+  /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-git-it-done-screenshot.png) no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -260,7 +272,12 @@ nav ul li {
 }
 
 .budget_tracker_image {
-  background: url(../src/images/budget-tracker-screenshot.png) no-repeat;
+  /* background: url(../src/images/budget-tracker-screenshot.png) no-repeat; */
+  /* background: url(../src/images/resized-images/resized-1000W-px-budget-tracker-screenshot.jpg)
+    no-repeat; */
+    background: url(../src/images/resized-images/resized-800W-px-budget-tracker-screenshot.png)
+    no-repeat;
+
   position: relative;
   background-size: cover;
   background-position: center;
@@ -270,7 +287,9 @@ nav ul li {
 }
 
 .food_festival_image {
-  background: url(../src/images/food-festival.png) no-repeat;
+  /* background: url(../src/images/food-festival.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-food-festival.jpg)
+    no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -280,7 +299,8 @@ nav ul li {
 }
 
 .star_talk_image {
-  background: url(../src/images/star-talk.png) no-repeat;
+  /* background: url(../src/images/star-talk.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-star-talk.png) no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;

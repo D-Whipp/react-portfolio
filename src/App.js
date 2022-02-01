@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <>
-      <Particles
+      {/* <Particles
         className="particles-canvas"
         id="tsparticles"
         init={particlesInit}
@@ -40,7 +40,8 @@ function App() {
               },
               onHover: {
                 enable: true,
-                mode: "repulse",
+                // mode: "repulse",
+                mode: "attract",
               },
               resize: true,
             },
@@ -80,7 +81,7 @@ function App() {
               enable: true,
               // outMode: "bounce",
               random: true,
-              speed: 1,
+              speed: 0.1,
               maxspeed: 3,
               straight: true,
             },
@@ -105,7 +106,7 @@ function App() {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
       <Navbar></Navbar>
       <Header></Header>
       <About></About>
