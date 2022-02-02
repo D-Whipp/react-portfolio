@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap");
+:root {
+  --primary-blue: #61dafb;
+  --secondary-color: #282c34;
+  --offset-color: #464955;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ***************** NAVBAR ******************** */
+.logo {
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
+  font-size: 2rem !important;
+  margin: 1.5rem 0 auto 2rem;
+}
+
+/* ***************** Menu Links **************************** */
+nav {
+  z-index: 5;
+}
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
+  font-size: 1.2rem !important;
+  border-top: 0.15rem solid var(--secondary-color);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.15rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.15rem solid var(--primary-blue);
+}
+
+/* ********** HEADER *********** */
+
+.header-wrapper {
+  position: relative;
+  background: url(../src/davids-avatar.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.main-info h1 {
+  margin-top: 2rem;
+  color: #000000;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 2px 2px var(--primary-blue);
+}
+
+/* ****** Typed Text****** */
+.typed-text {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #000000;
+  text-shadow: 2px 2px var(--primary-blue);
+}
+
+/* ****** Header main offer button******* */
+.btn-main-offer {
+  background-color: #5a585d;
+  border: 3px solid var(--primary-blue);
+  border-radius: 10px;
+  color: #000000;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  opacity: 0.9;
+  padding: 0.6rem 0.75rem 0.75rem 0.75rem;
+  text-shadow: 1px 1px var(--primary-blue);
+  z-index: 2;
+}
+
+.btn-main-offer:hover {
+  background-color: var(--primary-blue);
+  text-decoration: none;
+}
+
+.header-wrapper .main-info form {
+  z-index: 3;
+}
+
+/* ******** TS Particles ******** */
+#tsparticles {
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 99vw;
+  z-index: 1;
+}
+
+/* ********* Media Queries ******* */
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .typed-text {
+    font-size: 1.7rem;
+  }
+}
+
+/* ********* About Me ********** */
+.about-me {
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-blue);
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  word-spacing: 0.3rem;
+  justify-content: center;
+  /* position: absolute; */
+  padding: 1.5rem;
+  text-align: center;
+  z-index: 2;
+}
+
+/* ********* Projects ********* */
+.carousel-item {
+  background-color: var(--primary-blue);
+  /* background-image: url(../src/images/davids-avatar.jpg); */
+  background-image: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg);
+}
+
+.horiseon-container {
+  /* background-color: var(--primary-blue); */
+  /* height: 100%; */
+  height: 35rem;
+  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
+  z-index: 2;
+}
+
+.horsieon_image {
+  /* background: url(../src/images/horiseon-project.png) no-repeat; */
+  /* background: url(../src/images/resized-images/resized-1000W-px-horiseon-project.jpg)
+    no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-horiseon-project.jpg)
+    no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.camping_buddy_image {
+  /* background: url(../src/images/campingBuddyScreenshot.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-campingBuddyScreenshot.png)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.static_port_image {
+  /* background: url(../src/images/davids-avatar.jpg) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.git_it_done_image {
+  /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-git-it-done-screenshot.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.budget_tracker_image {
+  /* background: url(../src/images/budget-tracker-screenshot.png) no-repeat; */
+  /* background: url(../src/images/resized-images/resized-1000W-px-budget-tracker-screenshot.jpg)
+    no-repeat; */
+    background: url(../src/images/resized-images/resized-800W-px-budget-tracker-screenshot.png)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.food_festival_image {
+  /* background: url(../src/images/food-festival.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-food-festival.jpg)
+    no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.star_talk_image {
+  /* background: url(../src/images/star-talk.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-star-talk.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.project-title {
+  /* font-family: "Rubik", sans-serif;
+  font-size: 3rem; */
+  text-decoration: none;
+  color: var(--secondary-color) !important;
+  text-shadow: 1px 1px var(--primary-blue);
+  font-size: 2rem !important;
+  margin: 1.5rem 0 auto 2rem;
+}
+
+.sr-only {
+  z-index: 4;
+}
+
+/* ********** Contact ************ */
+#contact-me {
+  height: 3rem;
+  /* position: fixed; */
+  /* bottom: 55px; */
+  margin-top: 0.5rem;
+  z-index: 2;
+}
+
+#contact-me form input {
+  border: 2px var(--secondary-color) solid;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+}
+
+/* *************** Resume ************* */
+.resume-form {
+  background-color: var(--secondary-color);
+  height: 100%;
+  width: 99vw;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.resume-form h1 {
+  color: var(--primary-blue);
+  margin: 0 auto;
+}
+
+.resume-doc {
+  background: url(../src/images/Test\ Resume.pdf) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* ******** Footer ******** */
+.footer {
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
+  /* width: 100%; */
+  background-color: var(--secondary-color);
+  color: var(--primary-blue);
+  text-align: center;
+  z-index: 2;
+  padding: 10px 0;
+}
