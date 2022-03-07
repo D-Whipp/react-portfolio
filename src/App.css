@@ -289,6 +289,9 @@ nav ul li {
   margin: 0 auto;
 }
 
+/* carousel item 6 | Weather Dashboard | Coming Soon! */
+
+/* carousel item 7 | Interactive Front-End Project | Camping Buddy */
 .camping_buddy_image {
   /* background: url(../src/images/campingBuddyScreenshot.png) no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-campingBuddyScreenshot.png)
@@ -302,10 +305,10 @@ nav ul li {
   margin: 0 auto;
 }
 
-
-.git_it_done_image {
+/* carousel item 8 | Read Me Generator */
+.read_me_gen_img {
   /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-git-it-done-screenshot.png) no-repeat;
+  background: url(../src/images/resized-images/resized-800W-px-readme-gen.png) no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -314,6 +317,70 @@ nav ul li {
   margin: 0 auto;
 }
 
+/* carousel item 9 | Team Profile Generator */
+.team-pro-gen-img {
+  /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-team-profile-generator-img.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 10 | Express Note Taker | Coming Soon! */
+
+
+/* carousel item 11 | Employee Tracker */
+.employee-tracker-img {
+  background: url(../src/images/resized-images/resized-800W-px-employee-tracker-img.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 12 | ORM E-Commerce Back-End | Coming Soon! */
+
+/* carousel item 13 | MVC Tech Blog */
+.mvc-tech-blog-img {
+  background: url(../src/images/resized-images/resized-800W-px-mvc-tech-blog.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 14 | Sports Vibes | Group Project */
+.sports-vibes-img {
+  background: url(../src/images/resized-images/resized-800W-px-SportsVibes.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 15 | Regex Tutorial */
+.regex-tut-img {
+  background: url(../src/images/resized-images/resized-800W-px-regex-tut-img.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 16 | Social Network API | Coming Soon! */
+
+/* carousel item 17 | Budget Tracker */
 .budget_tracker_image {
   /* background: url(../src/images/budget-tracker-screenshot.png) no-repeat; */
   /* background: url(../src/images/resized-images/resized-1000W-px-budget-tracker-screenshot.jpg)
@@ -329,9 +396,10 @@ nav ul li {
   margin: 0 auto;
 }
 
-.food_festival_image {
+/* carousel item 18 | Book Search Engine */
+.book-search-eng-img {
   /* background: url(../src/images/food-festival.png) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-food-festival.jpg)
+  background: url(../src/images/resized-images/resized-800W-px-book-search-eng-img.png)
     no-repeat;
   position: relative;
   background-size: cover;
@@ -341,6 +409,9 @@ nav ul li {
   margin: 0 auto;
 }
 
+/* carousel item 18 | Redux Store | Coming Soon! */
+
+/* carousel item 19 | Star Talk | Final Project */
 .star_talk_image {
   /* background: url(../src/images/star-talk.png) no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-star-talk.png) no-repeat;

@@ -82,7 +82,11 @@ function Projects() {
             </div>
           </div>
 
-          {/* carousel item # */}
+          {/* carousel item 6 */}
+          {/* Weather Dashboard | Coming Soon! */}
+
+          {/* carsousel item 7 */}
+          {/* Interactive Front-End Project | Camping Buddy */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
@@ -95,20 +99,99 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel item # */}
+
+          {/* carousel item 8 */}
+          {/* Read Me Generator */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
-                href="https://d-whipp.github.io/git-it-done/"
+                href="https://github.com/D-Whipp/readme-generator"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Git-It-Done</p>
-                <div className="git_it_done_image"></div>
+                <p className="project-title">Read Me Generator</p>
+                <div className="read_me_gen_img"></div>
               </a>
             </div>
           </div>
-          {/* carousel item # */}
+          {/* carousel item 9 */}
+          {/* Team Profile Generator */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://github.com/D-Whipp/team-profile-generator"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Team Profile Generator</p>
+                <div className="team-pro-gen-img"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item 10 | Express Note Taker | Coming Soon! */}
+
+          {/* carousel item 11 | Employee Tracker */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://github.com/D-Whipp/employee-tracker"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Employee Tracker</p>
+                <div className="employee-tracker-img"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item 12 | ORM E-Commerce Back-End | Coming Soon! */}
+
+          {/* carousel item 13 | MVC Tech Blog */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://stark-reef-58838.herokuapp.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">MVC Tech Blog</p>
+                <div className="mvc-tech-blog-img"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item 14 | Full-Stack Project | Sports Vibes */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://cryptic-hamlet-34193.herokuapp.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Sports Vibes</p>
+                <div className="sports-vibes-img"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item 15 | Regex Tutorial */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://gist.github.com/D-Whipp/d08038c1b2d285ec92cc3c79f496b2ff"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Regex Tutorial</p>
+                <div className="regex-tut-img"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item 16 | Social Network API | Coming Soon! */}
+
+          {/* carousel item 17 | Budget Tracker */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
@@ -121,20 +204,24 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel item # */}
+
+          {/* carousel item 18 | Book Search Engine */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
-                href="https://d-whipp.github.io/food-festival/index.html"
+                href="https://frozen-journey-26834.herokuapp.com/"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Food Festival</p>
-                <div className="food_festival_image"></div>
+                <p className="project-title">Book Search Engine</p>
+                <div className="book-search-eng-img"></div>
               </a>
             </div>
           </div>
-          {/* carousel item # */}
+
+          {/* carousel item 18 | Redux Store | Coming Soon! */}
+
+          {/* carousel item 19 | Star Talk | Final Project */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
@@ -148,6 +235,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        {/* carousel control buttons */}
         <a
           className="carousel-control-prev"
           href="#testimonial-carousel"
