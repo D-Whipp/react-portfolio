@@ -221,12 +221,66 @@ nav ul li {
   z-index: 2;
 }
 
+/* carousel item 1 | Code Refactor */
 .horsieon_image {
   /* background: url(../src/images/horiseon-project.png) no-repeat; */
   /* background: url(../src/images/resized-images/resized-1000W-px-horiseon-project.jpg)
     no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-horiseon-project.jpg)
     no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 2 | Professional Portfolio */
+.static_port_image {
+  /* background: url(../src/images/davids-avatar.jpg) no-repeat; */
+  background: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 3 | Password Generator */
+.password_gen {
+  background: url(../src/images/resized-images/resized-800W-px-Password-Generator.png)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 4 | Code Quiz */
+.code_quiz {
+  background: url(../src/images/resized-images/resized-800W-px-code-quiz.png)
+    no-repeat;
+
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* carousel item 5 | Work Day Scheduler */
+.work-day-scheduler {
+  background: url(../src/images/resized-images/resized-800W-px-work-day-scheduler.png)
+    no-repeat;
+
   position: relative;
   background-size: cover;
   background-position: center;
@@ -248,18 +302,6 @@ nav ul li {
   margin: 0 auto;
 }
 
-.static_port_image {
-  /* background: url(../src/images/davids-avatar.jpg) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg)
-    no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
-}
 
 .git_it_done_image {
   /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
@@ -314,14 +356,28 @@ nav ul li {
   /* font-family: "Rubik", sans-serif;
   font-size: 3rem; */
   text-decoration: none;
-  color: var(--secondary-color) !important;
-  text-shadow: 1px 1px var(--primary-blue);
-  font-size: 2rem !important;
+  /* color: var(--secondary-color) !important; */
+  color: var(--primary-blue) !important;
+  /* text-shadow: 1px 1px var(--primary-blue); */
+  /* text-shadow: 3px 3px var(--primary-blue); */
+  text-shadow: 3px 3px var(--secondary-color);
+  /* font-size: 2rem !important; */
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 0 15px;
   margin: 1.5rem 0 auto 2rem;
 }
 
 .sr-only {
   z-index: 4;
+}
+
+.car-arrow-bg {
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
 }
 
 /* ********** Contact ************ */

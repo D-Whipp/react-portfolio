@@ -4,17 +4,20 @@ function Projects() {
   return (
     // *********** BOOTSTRAP CAROUSEL *********
     <section id="projects">
+      {/* <h4>Portfolio</h4> */}
       <div
         id="testimonial-carousel"
         className="content-container carousel slide"
         data-ride="false"
       >
         <div className="carousel-inner">
-          {/* carousel 1 */}
+          {/* carousel item 1 */}
+          {/* Code Refactor */}
           <div className="carousel-item active">
             <div className="horiseon-container">
               <a
                 href="https://d-whipp.github.io/first-bootcamp-challenge/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Horiseon</p>
@@ -22,20 +25,13 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel 2 */}
-          <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
-              <a href="https://lucawic.github.io/api-pro/" target="_blank">
-                <p className="project-title">Camping Buddy</p>
-                <div className="camping_buddy_image"></div>
-              </a>
-            </div>
-          </div>
-          {/* carousel 3 */}
+          {/* carousel item 2 */}
+          {/* Professional Portfolio */}
           <div className="carousel-item carousel-item-three">
             <div className="horiseon-container">
               <a
                 href="https://d-whipp.github.io/second-bootcamp-challenge/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Static Portfolio</p>
@@ -43,20 +39,81 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel 4 */}
+          {/* carousel item 3 */}
+          {/* Password Generator */}
+          <div className="carousel-item carousel-item-three">
+            <div className="horiseon-container">
+              <a
+                href="https://d-whipp.github.io/third-bootcamp-challenge/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Password Generator</p>
+                <div className="password_gen"></div>
+              </a>
+            </div>
+          </div>
+          {/* carousel item 4 */}
+          {/* Code Quiz */}
+          <div className="carousel-item carousel-item-three">
+            <div className="horiseon-container">
+              <a
+                href="https://d-whipp.github.io/fourth-bootcamp-challenge/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Code Quiz</p>
+                <div className="code_quiz"></div>
+              </a>
+            </div>
+          </div>
+          {/* carousel item 5 */}
+          {/* Work Day Scheduler */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
-              <a href="https://d-whipp.github.io/git-it-done/" target="_blank">
+              <a
+                href="https://d-whipp.github.io/fifth-bootcamp-challenge/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Work Day Scheduler</p>
+                <div className="work-day-scheduler"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* carousel item # */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://lucawic.github.io/api-pro/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-title">Camping Buddy</p>
+                <div className="camping_buddy_image"></div>
+              </a>
+            </div>
+          </div>
+          {/* carousel item # */}
+          <div className="carousel-item carousel-item-two">
+            <div className="horiseon-container">
+              <a
+                href="https://d-whipp.github.io/git-it-done/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <p className="project-title">Git-It-Done</p>
                 <div className="git_it_done_image"></div>
               </a>
             </div>
           </div>
-          {/* carousel 5 */}
+          {/* carousel item # */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
                 href="https://intense-ravine-29652.herokuapp.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Budget Tracker</p>
@@ -64,11 +121,12 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel 6 */}
+          {/* carousel item # */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
                 href="https://d-whipp.github.io/food-festival/index.html"
+                rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Food Festival</p>
@@ -76,11 +134,12 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* carousel 7 */}
+          {/* carousel item # */}
           <div className="carousel-item carousel-item-two">
             <div className="horiseon-container">
               <a
                 href="https://obscure-woodland-80927.herokuapp.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Star Talk</p>
