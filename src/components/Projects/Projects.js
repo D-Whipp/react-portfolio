@@ -2,6 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
+    // <h4>Projects</h4>
     // *********** BOOTSTRAP CAROUSEL *********
     <section id="projects">
       {/* <h4>Portfolio</h4> */}
@@ -55,7 +56,7 @@ function Projects() {
           </div>
           {/* carousel item 4 */}
           {/* Code Quiz */}
-          <div className="carousel-item carousel-item-three">
+          {/* <div className="carousel-item carousel-item-three">
             <div className="horiseon-container">
               <a
                 href="https://d-whipp.github.io/fourth-bootcamp-challenge/"
@@ -66,7 +67,7 @@ function Projects() {
                 <div className="code_quiz"></div>
               </a>
             </div>
-          </div>
+          </div> */}
           {/* carousel item 5 */}
           {/* Work Day Scheduler */}
           <div className="carousel-item carousel-item-two">

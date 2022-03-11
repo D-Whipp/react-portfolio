@@ -202,11 +202,19 @@ nav ul li {
   z-index: 2;
 }
 
+.project-element {
+  margin-top: 3rem;
+}
+
 /* ********* Projects ********* */
 .carousel-item {
-  background-color: var(--primary-blue);
+  /* background-color: var(--primary-blue); */
+  background-color: #282c34;
   /* background-image: url(../src/images/davids-avatar.jpg); */
-  background-image: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg);
+  /* background-image: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg); */
+  /* background-image: url(../src/images/resized-images/resized-1200W-px-thr3-eyes-unsplash.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: fill; */
   padding-bottom: 5%;
 }
 
