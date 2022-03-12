@@ -15,7 +15,7 @@ function Projects() {
           {/* carousel item 1 */}
           {/* Code Refactor */}
           <div className="carousel-item active">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://d-whipp.github.io/first-bootcamp-challenge/"
                 rel="noreferrer"
@@ -29,7 +29,7 @@ function Projects() {
           {/* carousel item 2 */}
           {/* Professional Portfolio */}
           <div className="carousel-item carousel-item-three">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://d-whipp.github.io/second-bootcamp-challenge/"
                 rel="noreferrer"
@@ -43,7 +43,7 @@ function Projects() {
           {/* carousel item 3 */}
           {/* Password Generator */}
           <div className="carousel-item carousel-item-three">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://d-whipp.github.io/third-bootcamp-challenge/"
                 rel="noreferrer"
@@ -57,7 +57,7 @@ function Projects() {
           {/* carousel item 4 */}
           {/* Code Quiz */}
           {/* <div className="carousel-item carousel-item-three">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://d-whipp.github.io/fourth-bootcamp-challenge/"
                 rel="noreferrer"
@@ -71,7 +71,7 @@ function Projects() {
           {/* carousel item 5 */}
           {/* Work Day Scheduler */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://d-whipp.github.io/fifth-bootcamp-challenge/"
                 rel="noreferrer"
@@ -89,7 +89,7 @@ function Projects() {
           {/* carsousel item 7 */}
           {/* Interactive Front-End Project | Camping Buddy */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://lucawic.github.io/api-pro/"
                 rel="noreferrer"
@@ -104,7 +104,7 @@ function Projects() {
           {/* carousel item 8 */}
           {/* Read Me Generator */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://github.com/D-Whipp/readme-generator"
                 rel="noreferrer"
@@ -118,7 +118,7 @@ function Projects() {
           {/* carousel item 9 */}
           {/* Team Profile Generator */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://github.com/D-Whipp/team-profile-generator"
                 rel="noreferrer"
@@ -134,7 +134,7 @@ function Projects() {
 
           {/* carousel item 11 | Employee Tracker */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://github.com/D-Whipp/employee-tracker"
                 rel="noreferrer"
@@ -150,7 +150,7 @@ function Projects() {
 
           {/* carousel item 13 | MVC Tech Blog */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://stark-reef-58838.herokuapp.com/"
                 rel="noreferrer"
@@ -164,7 +164,7 @@ function Projects() {
 
           {/* carousel item 14 | Full-Stack Project | Sports Vibes */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://cryptic-hamlet-34193.herokuapp.com/"
                 rel="noreferrer"
@@ -178,7 +178,7 @@ function Projects() {
 
           {/* carousel item 15 | Regex Tutorial */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://gist.github.com/D-Whipp/d08038c1b2d285ec92cc3c79f496b2ff"
                 rel="noreferrer"
@@ -194,7 +194,7 @@ function Projects() {
 
           {/* carousel item 17 | Budget Tracker */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://intense-ravine-29652.herokuapp.com/"
                 rel="noreferrer"
@@ -208,7 +208,7 @@ function Projects() {
 
           {/* carousel item 18 | Book Search Engine */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://frozen-journey-26834.herokuapp.com/"
                 rel="noreferrer"
@@ -224,7 +224,7 @@ function Projects() {
 
           {/* carousel item 19 | Star Talk | Final Project */}
           <div className="carousel-item carousel-item-two">
-            <div className="horiseon-container">
+            <div className="slide-size-container">
               <a
                 href="https://obscure-woodland-80927.herokuapp.com/"
                 rel="noreferrer"
