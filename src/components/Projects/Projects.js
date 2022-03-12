@@ -22,7 +22,8 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Horiseon</p>
-                <div className="horsieon_image"></div>
+                {/* <div className="horsieon_image"></div> */}
+                <div className="slide-setup horiseon_image"></div>
               </a>
             </div>
           </div>
@@ -36,7 +37,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Static Portfolio</p>
-                <div className="static_port_image"></div>
+                <div className="slide-setup static_port_image"></div>
               </a>
             </div>
           </div>
@@ -50,7 +51,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Password Generator</p>
-                <div className="password_gen"></div>
+                <div className="slide-setup password_gen"></div>
               </a>
             </div>
           </div>
@@ -64,7 +65,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Code Quiz</p>
-                <div className="code_quiz"></div>
+                <div className="slide-setup code_quiz"></div>
               </a>
             </div>
           </div> */}
@@ -78,7 +79,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Work Day Scheduler</p>
-                <div className="work-day-scheduler"></div>
+                <div className="slide-setup work-day-scheduler"></div>
               </a>
             </div>
           </div>
@@ -96,7 +97,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Camping Buddy</p>
-                <div className="camping_buddy_image"></div>
+                <div className="slide-setup camping_buddy_image"></div>
               </a>
             </div>
           </div>
@@ -111,7 +112,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Read Me Generator</p>
-                <div className="read_me_gen_img"></div>
+                <div className="slide-setup read_me_gen_img"></div>
               </a>
             </div>
           </div>
@@ -125,7 +126,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Team Profile Generator</p>
-                <div className="team-pro-gen-img"></div>
+                <div className="slide-setup team-pro-gen-img"></div>
               </a>
             </div>
           </div>
@@ -141,7 +142,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Employee Tracker</p>
-                <div className="employee-tracker-img"></div>
+                <div className="slide-setup employee-tracker-img"></div>
               </a>
             </div>
           </div>
@@ -157,7 +158,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">MVC Tech Blog</p>
-                <div className="mvc-tech-blog-img"></div>
+                <div className="slide-setup mvc-tech-blog-img"></div>
               </a>
             </div>
           </div>
@@ -171,7 +172,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Sports Vibes</p>
-                <div className="sports-vibes-img"></div>
+                <div className="slide-setup sports-vibes-img"></div>
               </a>
             </div>
           </div>
@@ -185,7 +186,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Regex Tutorial</p>
-                <div className="regex-tut-img"></div>
+                <div className="slide-setup regex-tut-img"></div>
               </a>
             </div>
           </div>
@@ -201,7 +202,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Budget Tracker</p>
-                <div className="budget_tracker_image"></div>
+                <div className="slide-setup budget_tracker_image"></div>
               </a>
             </div>
           </div>
@@ -215,7 +216,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Book Search Engine</p>
-                <div className="book-search-eng-img"></div>
+                <div className="slide-setup book-search-eng-img"></div>
               </a>
             </div>
           </div>
@@ -231,7 +232,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Star Talk</p>
-                <div className="star_talk_image"></div>
+                <div className="slide-setup star_talk_image"></div>
               </a>
             </div>
           </div>

@@ -224,206 +224,116 @@ nav ul li {
   height: 35rem;
   /* height: 12rem; */
   text-align: center;
+  /* align-items: center; */
   /* align-items: center;
   justify-content: center; */
   width: 100%;
   z-index: 2;
 }
 
+/* sets slide's image */
 /* carousel item 1 | Code Refactor */
-.horsieon_image {
-  /* background: url(../src/images/horiseon-project.png) no-repeat; */
-  /* background: url(../src/images/resized-images/resized-1000W-px-horiseon-project.jpg)
-    no-repeat; */
+.horiseon_image {
   background: url(../src/images/resized-images/resized-800W-px-horiseon-project.jpg)
     no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 2 | Professional Portfolio */
 .static_port_image {
-  /* background: url(../src/images/davids-avatar.jpg) no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-davids-avatar.jpg)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 3 | Password Generator */
 .password_gen {
   background: url(../src/images/resized-images/resized-800W-px-Password-Generator.png)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 4 | Code Quiz */
 .code_quiz {
   background: url(../src/images/resized-images/resized-800W-px-code-quiz.png)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 5 | Work Day Scheduler */
 .work-day-scheduler {
   background: url(../src/images/resized-images/resized-800W-px-work-day-scheduler.png)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 6 | Weather Dashboard | Coming Soon! */
 
 /* carousel item 7 | Interactive Front-End Project | Camping Buddy */
 .camping_buddy_image {
-  /* background: url(../src/images/campingBuddyScreenshot.png) no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-campingBuddyScreenshot.png)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 8 | Read Me Generator */
 .read_me_gen_img {
-  /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-readme-gen.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-readme-gen.png)
+    no-repeat;
 }
 
 /* carousel item 9 | Team Profile Generator */
 .team-pro-gen-img {
-  /* background: url(../src/images/git-it-done-screenshot.png) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-team-profile-generator-img.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-team-profile-generator-img.png)
+    no-repeat;
 }
 
 /* carousel item 10 | Express Note Taker | Coming Soon! */
 
-
 /* carousel item 11 | Employee Tracker */
 .employee-tracker-img {
-  background: url(../src/images/resized-images/resized-800W-px-employee-tracker-img.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-employee-tracker-img.png)
+    no-repeat;
 }
 
 /* carousel item 12 | ORM E-Commerce Back-End | Coming Soon! */
 
 /* carousel item 13 | MVC Tech Blog */
 .mvc-tech-blog-img {
-  background: url(../src/images/resized-images/resized-800W-px-mvc-tech-blog.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-mvc-tech-blog.png)
+    no-repeat;
 }
 
 /* carousel item 14 | Sports Vibes | Group Project */
 .sports-vibes-img {
-  background: url(../src/images/resized-images/resized-800W-px-SportsVibes.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-SportsVibes.png)
+    no-repeat;
 }
 
 /* carousel item 15 | Regex Tutorial */
 .regex-tut-img {
-  background: url(../src/images/resized-images/resized-800W-px-regex-tut-img.png) no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
+  background: url(../src/images/resized-images/resized-800W-px-regex-tut-img.png)
+    no-repeat;
 }
 
 /* carousel item 16 | Social Network API | Coming Soon! */
 
 /* carousel item 17 | Budget Tracker */
 .budget_tracker_image {
-  /* background: url(../src/images/budget-tracker-screenshot.png) no-repeat; */
-  /* background: url(../src/images/resized-images/resized-1000W-px-budget-tracker-screenshot.jpg)
-    no-repeat; */
-    background: url(../src/images/resized-images/resized-800W-px-budget-tracker-screenshot.png)
+  background: url(../src/images/resized-images/resized-800W-px-budget-tracker-screenshot.png)
     no-repeat;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 18 | Book Search Engine */
 .book-search-eng-img {
-  /* background: url(../src/images/food-festival.png) no-repeat; */
   background: url(../src/images/resized-images/resized-800W-px-book-search-eng-img.png)
     no-repeat;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
 }
 
 /* carousel item 18 | Redux Store | Coming Soon! */
 
 /* carousel item 19 | Star Talk | Final Project */
 .star_talk_image {
-  /* background: url(../src/images/star-talk.png) no-repeat; */
-  background: url(../src/images/resized-images/resized-800W-px-star-talk.png) no-repeat;
+  background: url(../src/images/resized-images/resized-800W-px-star-talk.png)
+    no-repeat;
+}
+
+/* general container for slide images */
+.slide-setup {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -431,6 +341,8 @@ nav ul li {
   width: 75%;
   margin: 0 auto;
 }
+
+
 
 .project-title {
   /* font-family: "Rubik", sans-serif;
