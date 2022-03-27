@@ -1,3 +1,4 @@
+![app-screenshot](./src/images/app-snapshot/react-port-screenshot.png)
 # Getting Started my React Portfolio App
 This app is deployed using Heroku.\
 You can view the deployed app [here](http://mighty-brook-32674.herokuapp.com/).
