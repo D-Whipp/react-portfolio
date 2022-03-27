@@ -33,3 +33,5 @@ You can also learn React [here](https://reactjs.org/) in the React Documentation
 
 ## Badges
 ![font-awesome-badge](https://img.shields.io/badge/font%20awesome-1.2.36-blue)
+![bootstrap-badge](https://img.shields.io/badge/bootstrap-5.1.3-blue)
+![react-badge](https://img.shields.io/badge/react-17.0.2-blue)
