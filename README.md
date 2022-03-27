@@ -30,3 +30,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more about React in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 You can also learn React [here](https://reactjs.org/) in the React Documentation.
+
+## Badges
+![font-awesome-badge](https://img.shields.io/badge/font%20awesome-1.2.36-blue)
