@@ -1,4 +1,6 @@
 import React from "react";
+import Typed from "react-typed";
+
 // React font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +12,15 @@ const Navbar = () => {
         <a className="navbar-brand" href="/">
           <p class="logo">David's Portfolio</p>
         </a>
+        {/* <a href="mailto: dwhipp88@gmail"></a> */}
+        {/* <Typed
+          className="typed-text"
+          strings={["dwhipp88@gmail.com"]}
+          typeSpeed={70}
+          backSpeed={30}
+          loop
+        ></Typed> */}
+
         <button
           className="navbar-toggler"
           type="button"
