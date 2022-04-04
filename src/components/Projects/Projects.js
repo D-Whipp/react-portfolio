@@ -15,12 +15,11 @@ function Projects() {
           <div className="carousel-item active">
             <div className="slide-size-container">
               <a
-                href="https://d-whipp.github.io/first-bootcamp-challenge/"
+                href="https://d-whipp.github.io/horiseon-code-refactor/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <p className="project-title">Horiseon</p>
-                {/* <div className="horsieon_image"></div> */}
                 <div className="slide-setup horiseon_image"></div>
               </a>
             </div>
