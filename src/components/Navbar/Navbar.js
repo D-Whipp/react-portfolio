@@ -9,7 +9,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <a
+          className="navbar-brand"
+          href="https://www.linkedin.com/in/david-w-079841213/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <p class="logo">David's Portfolio</p>
         </a>
         {/* <a href="mailto: dwhipp88@gmail"></a> */}
@@ -38,16 +43,29 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">
-                Home
-              </a>
-            </li>
             <li className="nav-item">
               <a className="nav-link" href="#about-me">
                 About Me
               </a>
             </li>
+            <li className="nav-item active">
+              {/* <a className="nav-link" href="/">
+                Home
+              </a> */}
+              <a
+                className="nav-link"
+                href="https://www.linkedin.com/in/david-w-079841213/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
+            {/* <li className="nav-item">
+              <a className="nav-link" href="#about-me">
+                About Me
+              </a>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#projects">
                 Portfolio
@@ -72,7 +90,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <a href="https://docs.google.com/document/d/1_NutIvUj36eHWeuiLrZqElTc1U--REEkUjQ60fSyCNo/edit#heading=h.y7d3xdxnr44m"> */
-}
