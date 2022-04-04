@@ -2,10 +2,8 @@ import React from "react";
 
 function Projects() {
   return (
-    // <h4>Projects</h4>
     // *********** BOOTSTRAP CAROUSEL *********
     <section id="projects">
-      {/* <h4>Portfolio</h4> */}
       <div
         id="testimonial-carousel"
         className="content-container carousel slide"
@@ -56,19 +54,8 @@ function Projects() {
             </div>
           </div>
           {/* carousel item 4 */}
-          {/* Code Quiz */}
-          {/* <div className="carousel-item carousel-item-three">
-            <div className="slide-size-container">
-              <a
-                href="https://d-whipp.github.io/fourth-bootcamp-challenge/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Code Quiz</p>
-                <div className="slide-setup code_quiz"></div>
-              </a>
-            </div>
-          </div> */}
+          {/* Code Quiz | Coming Soon! */}
+
           {/* carousel item 5 */}
           {/* Work Day Scheduler */}
           <div className="carousel-item carousel-item-two">
