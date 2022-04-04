@@ -17,15 +17,6 @@ const Navbar = () => {
         >
           <p class="logo">David's Portfolio</p>
         </a>
-        {/* <a href="mailto: dwhipp88@gmail"></a> */}
-        {/* <Typed
-          className="typed-text"
-          strings={["dwhipp88@gmail.com"]}
-          typeSpeed={70}
-          backSpeed={30}
-          loop
-        ></Typed> */}
-
         <button
           className="navbar-toggler"
           type="button"
