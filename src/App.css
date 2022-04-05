@@ -208,6 +208,8 @@ nav ul li {
 .carousel-item {
   background-color: #282c34;
   padding-bottom: 5%;
+  /* align-items: center; */
+  /* margin: 0 50%; */
 }
 
 .slide-size-container {
@@ -325,6 +327,8 @@ nav ul li {
   background-position: center;
   height: 100%;
   width: 75%;
+  /* height: 100px;
+  width: 100px; */
   margin: 0 auto;
 }
 
@@ -334,6 +338,16 @@ nav ul li {
   text-shadow: 3px 3px var(--secondary-color);
   font-weight: bolder;
   font-size: 2rem;
+  padding: 0 15px;
+  margin: 1.5rem 0 auto 2rem;
+}
+
+.project-subtitle {
+  text-decoration: none;
+  color: var(--primary-blue) !important;
+  text-shadow: 3px 3px var(--secondary-color);
+  font-weight: bolder;
+  font-size: 1.5rem;
   padding: 0 15px;
   margin: 1.5rem 0 auto 2rem;
 }

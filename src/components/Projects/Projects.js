@@ -1,4 +1,5 @@
 import React from "react";
+// import resized-800W-px-horiseon-Projects.jpg from "../../images/project-images";
 
 function Projects() {
   return (
@@ -8,18 +9,74 @@ function Projects() {
         id="testimonial-carousel"
         className="content-container carousel slide"
         data-ride="false"
+        // data-ride="carousel"
       >
         <div className="carousel-inner">
-          {/* carousel item 1 */}
-          {/* Code Refactor */}
+          {/* TESTING START */}
+
           <div className="carousel-item active">
             <div className="slide-size-container">
+              <div className="card-set">
+                <div className="card" style={{ width: "18rem" }}>
+                  {/* <img className="card-img-top" src={"../src/images/project-images/resized-800W-px-horiseon-project.jpg"} alt="Card image cap"></img> */}
+                  <div
+                    className="slide_setup horiseon_image"
+                    style={{ height: "200px" }}
+                  ></div>
+                  <div class="card-body">
+                    <h5 class="card-title">Horiseon</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                  <div class="card-body">
+                    <a
+                      href="https://github.com/D-Whipp/horiseon-code-refactor"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="card-link"
+                    >
+                      <p>Github Reopository</p>
+                    </a>
+                    <a
+                      href="https://d-whipp.github.io/horiseon-code-refactor/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="card-link"
+                    >
+                      <p>Deployed Site</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* TESTING END */}
+
+          {/* carousel item 1 */}
+          {/* Code Refactor */}
+          <div className="carousel-item">
+            <div className="slide-size-container">
+              <p className="project-title">Horiseon</p>
+              <a
+                href="https://github.com/D-Whipp/horiseon-code-refactor"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-subtitle">Github Repository</p>
+              </a>
               <a
                 href="https://d-whipp.github.io/horiseon-code-refactor/"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Horiseon</p>
                 <div className="slide-setup horiseon_image"></div>
               </a>
             </div>
@@ -28,12 +85,19 @@ function Projects() {
           {/* Professional Portfolio */}
           <div className="carousel-item carousel-item-three">
             <div className="slide-size-container">
+              <p className="project-title">Static Portfolio</p>
               <a
-                href="https://d-whipp.github.io/second-bootcamp-challenge/"
+                href="https://github.com/D-Whipp/static-portfolio"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Static Portfolio</p>
+                <p className="project-subtitle">Github Repository</p>
+              </a>
+              <a
+                href="https://d-whipp.github.io/static-portfolio/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <div className="slide-setup static_port_image"></div>
               </a>
             </div>
@@ -42,12 +106,20 @@ function Projects() {
           {/* Password Generator */}
           <div className="carousel-item carousel-item-three">
             <div className="slide-size-container">
+              <p className="project-title">Password Generator</p>
               <a
-                href="https://d-whipp.github.io/third-bootcamp-challenge/"
+                href="https://github.com/D-Whipp/js-password-generator"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Password Generator</p>
+                <p className="project-subtitle">Github Repository</p>
+              </a>
+
+              <a
+                href="https://d-whipp.github.io/js-password-generator/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <div className="slide-setup password_gen"></div>
               </a>
             </div>
@@ -59,12 +131,20 @@ function Projects() {
           {/* Work Day Scheduler */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
+              <p className="project-title">Work Day Scheduler</p>
               <a
-                href="https://d-whipp.github.io/fifth-bootcamp-challenge/"
+                href="https://github.com/D-Whipp/work-day-scheduler"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Work Day Scheduler</p>
+                <p className="project-subtitle">Github Repository</p>
+              </a>
+
+              <a
+                href="https://d-whipp.github.io/work-day-scheduler/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <div className="slide-setup work-day-scheduler"></div>
               </a>
             </div>
@@ -92,12 +172,19 @@ function Projects() {
           {/* Read Me Generator */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
+              <p className="project-title">Read Me Generator</p>
               <a
                 href="https://github.com/D-Whipp/readme-generator"
                 rel="noreferrer"
                 target="_blank"
               >
-                <p className="project-title">Read Me Generator</p>
+                <p className="project-subtitle">Github Repository</p>
+              </a>
+              <a
+                href="https://github.com/D-Whipp/readme-generator"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <div className="slide-setup read_me_gen_img"></div>
               </a>
             </div>
