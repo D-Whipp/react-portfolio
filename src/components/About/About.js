@@ -17,7 +17,7 @@ function About() {
           ability.
         </p>
       </div>
-      <h1 className="project-element">Projects</h1>
+      <h1 className="project-element">Portfolio</h1>
     </section>
   );
 }

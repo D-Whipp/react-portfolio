@@ -219,17 +219,13 @@ nav ul li {
 .slide-size-container {
   height: 35rem;
   text-align: center;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  width: 80%;
+  margin: 0 auto;
   z-index: 2;
 }
-
-/* *** TEST START *** */
-
-.project-img {
-
-}
-
-/* *** TEST END *** */
 
 /* sets slide's image */
 /* carousel item 1 | Code Refactor */
@@ -333,7 +329,22 @@ nav ul li {
 }
 
 /* general container for slide images */
-.project-img-setup {
+/* .github-repo-link {
+  float: right;
+  margin-right:35%;
+} */
+
+.project-img-link {
+  height: 100%;
+  width: 50%;
+  /* float: left; */
+}
+
+.github-repo-link {
+  margin: 0 auto;
+}
+
+.project-img-link a .project-img-setup {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -353,13 +364,31 @@ nav ul li {
   padding: 0 15px;
   margin: 1.5rem 0 auto 2rem;
 }
+/* 
+a .project-title {
+  text-align: none !important;
+} */
 
 .project-subtitle {
-  text-decoration: none;
+  text-decoration: none !important;
   color: var(--primary-blue) !important;
   text-shadow: 3px 3px var(--secondary-color);
   font-weight: bolder;
   font-size: 1.5rem;
+  padding: 0 15px;
+  margin: 1.5rem 0 auto 2rem;
+}
+
+/* a .project-subtitle {
+  text-decoration: none !important;
+} */
+
+.project-p {
+  text-decoration: none;
+  color: var(--primary-blue) !important;
+  text-shadow: 3px 3px var(--secondary-color);
+  font-weight: bolder;
+  font-size: 1.2rem;
   padding: 0 15px;
   margin: 1.5rem 0 auto 2rem;
 }

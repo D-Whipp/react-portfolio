@@ -12,50 +12,46 @@ function Projects() {
         // data-ride="carousel"
       >
         <div className="carousel-inner">
-          {/* test items */}
-          
-          <div className="carousel-item active">
-            <div className="slide-size-container">
-              <p className="project-title">Horiseon</p>
-              <a
-                href="https://github.com/D-Whipp/horiseon-code-refactor"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-subtitle">Github Repository</p>
-              </a>
-              <a
-                href="https://d-whipp.github.io/horiseon-code-refactor/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="project-img-setup horiseon_image"></div>
-              </a>
-            </div>
-          </div>
-
-          {/* test end */}
           {/* carousel item 1 */}
           {/* Code Refactor */}
-          <div className="carousel-item">
-          {/* <div className="carousel-item active"> */}
+          <div className="carousel-item active">
+            {/* <div className="carousel-item active"> */}
 
             <div className="slide-size-container">
-              <p className="project-title">Horiseon</p>
-              <a
-                href="https://github.com/D-Whipp/horiseon-code-refactor"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-subtitle">Github Repository</p>
-              </a>
-              <a
-                href="https://d-whipp.github.io/horiseon-code-refactor/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="project-img-setup horiseon_image"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://d-whipp.github.io/horiseon-code-refactor/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <h4 className="project-title">Horiseon: Code Refactor</h4>
+                  <div className="project-img-setup horiseon_image"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/horiseon-code-refactor"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  {/* <p className="project-title">Horiseon</p> */}
+                  <p className="project-subtitle">Github Repository</p>
+                </a>
+                <a
+                  href="https://d-whipp.github.io/horiseon-code-refactor/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-subtitle">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">HTML5</li>
+                  <li className="project-p">CSS3</li>
+                  <li className="project-p">Refactor</li>
+                </ul>
+              </div>
             </div>
           </div>
           {/* carousel item 2 */}
