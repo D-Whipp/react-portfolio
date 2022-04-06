@@ -341,14 +341,37 @@ function Projects() {
           {/* carousel item 11 | Employee Tracker */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://github.com/D-Whipp/employee-tracker"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Employee Tracker</p>
-                <div className="project-img-setup employee-tracker-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://github.com/D-Whipp/employee-tracker"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Employee Tracker</p>
+                  <div className="project-img-setup employee-tracker-img"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/employee-tracker"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">Node.JS</li>
+                  <li className="project-p">SQL</li>
+                </ul>
+                <p className="project-p">
+                  Here we have a Back End App written in JavaScript. <br />
+                  Using Node in the Terminal we can interact with a <br />
+                  SQL database to keep track of employees.
+                </p>
+              </div>
             </div>
           </div>
 
