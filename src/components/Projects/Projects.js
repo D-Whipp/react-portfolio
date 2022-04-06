@@ -15,8 +15,6 @@ function Projects() {
           {/* carousel item 1 */}
           {/* Code Refactor */}
           <div className="carousel-item active">
-            {/* <div className="carousel-item active"> */}
-            {/* looks good, now to finish the rest of the projects */}
             <div className="slide-size-container">
               <div className="project-img-link">
                 <a
@@ -35,7 +33,6 @@ function Projects() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  {/* <p className="project-title">Horiseon</p> */}
                   <p className="project-subtitle">Github Repository</p>
                 </a>
                 <a
@@ -51,6 +48,14 @@ function Projects() {
                   <li className="project-p">CSS3</li>
                   <li className="project-p">Refactor</li>
                 </ul>
+                <p className="project-p">
+                  I was handed this project with the task of{" "}
+                  <b>Refactoring the code</b>.
+                </p>
+                <p className="project-p">
+                  I went through the provided code and fixed broken links, made
+                  the code <i>DRY</i>, and <i>fixed some css punctuation</i>.
+                </p>
               </div>
             </div>
           </div>
@@ -58,21 +63,45 @@ function Projects() {
           {/* Professional Portfolio */}
           <div className="carousel-item carousel-item-three">
             <div className="slide-size-container">
-              <p className="project-title">Static Portfolio</p>
-              <a
-                href="https://github.com/D-Whipp/static-portfolio"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-subtitle">Github Repository</p>
-              </a>
-              <a
-                href="https://d-whipp.github.io/static-portfolio/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="project-img-setup static_port_image"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://d-whipp.github.io/static-portfolio/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Static Portfolio</p>
+                  <div className="project-img-setup static_port_image"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/static-portfolio"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-subtitle">Github Repository</p>
+                </a>
+                <a
+                  href="https://d-whipp.github.io/static-portfolio/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-subtitle">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">HTML5</li>
+                  <li className="project-p">CSS3</li>
+                </ul>
+                <p className="project-p">
+                  I was tasked with creating a static portfolio from scratch.
+                </p>
+                <p className="project-p">
+                  Using newly acquired skills in HTML5 and CSS3 I build this
+                  site from scratch.
+                </p>
+              </div>
             </div>
           </div>
           {/* carousel item 3 */}
