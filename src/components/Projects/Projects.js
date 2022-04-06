@@ -16,7 +16,7 @@ function Projects() {
           {/* Code Refactor */}
           <div className="carousel-item active">
             {/* <div className="carousel-item active"> */}
-
+            {/* looks good, now to finish the rest of the projects */}
             <div className="slide-size-container">
               <div className="project-img-link">
                 <a
