@@ -12,57 +12,9 @@ function Projects() {
         // data-ride="carousel"
       >
         <div className="carousel-inner">
-          {/* TESTING START */}
-
+          {/* test items */}
+          
           <div className="carousel-item active">
-            <div className="slide-size-container">
-              <div className="card-set">
-                <div className="card" style={{ width: "18rem" }}>
-                  {/* <img className="card-img-top" src={"../src/images/project-images/resized-800W-px-horiseon-project.jpg"} alt="Card image cap"></img> */}
-                  <div
-                    className="slide_setup horiseon_image"
-                    style={{ height: "200px" }}
-                  ></div>
-                  <div class="card-body">
-                    <h5 class="card-title">Horiseon</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a
-                      href="https://github.com/D-Whipp/horiseon-code-refactor"
-                      rel="noreferrer"
-                      target="_blank"
-                      className="card-link"
-                    >
-                      <p>Github Reopository</p>
-                    </a>
-                    <a
-                      href="https://d-whipp.github.io/horiseon-code-refactor/"
-                      rel="noreferrer"
-                      target="_blank"
-                      className="card-link"
-                    >
-                      <p>Deployed Site</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* TESTING END */}
-
-          {/* carousel item 1 */}
-          {/* Code Refactor */}
-          <div className="carousel-item">
             <div className="slide-size-container">
               <p className="project-title">Horiseon</p>
               <a
@@ -77,7 +29,32 @@ function Projects() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <div className="slide-setup horiseon_image"></div>
+                <div className="project-img-setup horiseon_image"></div>
+              </a>
+            </div>
+          </div>
+
+          {/* test end */}
+          {/* carousel item 1 */}
+          {/* Code Refactor */}
+          <div className="carousel-item">
+          {/* <div className="carousel-item active"> */}
+
+            <div className="slide-size-container">
+              <p className="project-title">Horiseon</p>
+              <a
+                href="https://github.com/D-Whipp/horiseon-code-refactor"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <p className="project-subtitle">Github Repository</p>
+              </a>
+              <a
+                href="https://d-whipp.github.io/horiseon-code-refactor/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div className="project-img-setup horiseon_image"></div>
               </a>
             </div>
           </div>
@@ -98,7 +75,7 @@ function Projects() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <div className="slide-setup static_port_image"></div>
+                <div className="project-img-setup static_port_image"></div>
               </a>
             </div>
           </div>
@@ -120,7 +97,7 @@ function Projects() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <div className="slide-setup password_gen"></div>
+                <div className="project-img-setup password_gen"></div>
               </a>
             </div>
           </div>
@@ -145,7 +122,7 @@ function Projects() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <div className="slide-setup work-day-scheduler"></div>
+                <div className="project-img-setup work-day-scheduler"></div>
               </a>
             </div>
           </div>
@@ -163,7 +140,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Camping Buddy</p>
-                <div className="slide-setup camping_buddy_image"></div>
+                <div className="project-img-setup camping_buddy_image"></div>
               </a>
             </div>
           </div>
@@ -185,7 +162,7 @@ function Projects() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <div className="slide-setup read_me_gen_img"></div>
+                <div className="project-img-setup read_me_gen_img"></div>
               </a>
             </div>
           </div>
@@ -199,7 +176,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Team Profile Generator</p>
-                <div className="slide-setup team-pro-gen-img"></div>
+                <div className="project-img-setup team-pro-gen-img"></div>
               </a>
             </div>
           </div>
@@ -215,7 +192,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Employee Tracker</p>
-                <div className="slide-setup employee-tracker-img"></div>
+                <div className="project-img-setup employee-tracker-img"></div>
               </a>
             </div>
           </div>
@@ -231,7 +208,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">MVC Tech Blog</p>
-                <div className="slide-setup mvc-tech-blog-img"></div>
+                <div className="project-img-setup mvc-tech-blog-img"></div>
               </a>
             </div>
           </div>
@@ -245,7 +222,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Sports Vibes</p>
-                <div className="slide-setup sports-vibes-img"></div>
+                <div className="project-img-setup sports-vibes-img"></div>
               </a>
             </div>
           </div>
@@ -259,7 +236,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Regex Tutorial</p>
-                <div className="slide-setup regex-tut-img"></div>
+                <div className="project-img-setup regex-tut-img"></div>
               </a>
             </div>
           </div>
@@ -275,7 +252,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Budget Tracker</p>
-                <div className="slide-setup budget_tracker_image"></div>
+                <div className="project-img-setup budget_tracker_image"></div>
               </a>
             </div>
           </div>
@@ -289,7 +266,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Book Search Engine</p>
-                <div className="slide-setup book-search-eng-img"></div>
+                <div className="project-img-setup book-search-eng-img"></div>
               </a>
             </div>
           </div>
@@ -305,7 +282,7 @@ function Projects() {
                 target="_blank"
               >
                 <p className="project-title">Star Talk</p>
-                <div className="slide-setup star_talk_image"></div>
+                <div className="project-img-setup star_talk_image"></div>
               </a>
             </div>
           </div>

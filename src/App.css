@@ -205,6 +205,10 @@ nav ul li {
 }
 
 /* ********* Projects ********* */
+#projects {
+  background-color: var(--secondary-color);
+}
+
 .carousel-item {
   background-color: #282c34;
   padding-bottom: 5%;
@@ -218,6 +222,14 @@ nav ul li {
   width: 100%;
   z-index: 2;
 }
+
+/* *** TEST START *** */
+
+.project-img {
+
+}
+
+/* *** TEST END *** */
 
 /* sets slide's image */
 /* carousel item 1 | Code Refactor */
@@ -321,7 +333,7 @@ nav ul li {
 }
 
 /* general container for slide images */
-.slide-setup {
+.project-img-setup {
   position: relative;
   background-size: cover;
   background-position: center;
