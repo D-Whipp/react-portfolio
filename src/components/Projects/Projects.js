@@ -49,7 +49,7 @@ function Projects() {
                   <li className="project-p">Refactor</li>
                 </ul>
                 <p className="project-p">
-                  I was handed this project with the task <br />
+                  I was given this project with the task <br />
                   of <b>Refactoring the code</b>. I went <br />
                   through the provided code and fixed broken <br />
                   links, made the code <i>DRY</i>, and{" "}
@@ -217,7 +217,13 @@ function Projects() {
               </div>
 
               <div className="github-repo-link">
-                <p className="project-subtitle">No Repository</p>
+                <a
+                  href="https://github.com/lucawic/api-pro"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-subtitle">Github Repository</p>
+                </a>
                 <a
                   href="https://lucawic.github.io/api-pro/"
                   rel="noreferrer"
@@ -225,12 +231,29 @@ function Projects() {
                 >
                   <p className="project-subtitle">Deployed Site</p>
                 </a>
-                <ul>
-                  <li className="project-p">HMTL5</li>
-                  <li className="project-p">CSS3</li>
-                  <li className="project-p">JavaScript</li>
-                  <li className="project-p">Third Party API</li>
-                </ul>
+                <p className="project-p">- Technologies Used -</p>
+                <p className="project-p">
+                  This was a group project. The Technologies used <br />
+                  were HTML5 and CSS3, JavaScript, Materialize, <br />
+                  the DOM, API's - we used NPS openweather openLayer <br />
+                  Pixabay, JQuery, and JSON.
+                </p>
+                <p className="project-p">
+                  My responsibilities were -
+                  <ul>
+                    <li className="project-p">creating the wireframe</li>
+                    <li className="project-p">
+                      researching a new technology to replace Bootstrap
+                    </li>
+                    <li className="project-p">
+                      utilizing the new technology, Materialize
+                    </li>
+                    <li className="project-p">creating the Front End</li>
+                    <li className="project-p">
+                      integrating the Front End with the Back End
+                    </li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
@@ -239,35 +262,77 @@ function Projects() {
           {/* Read Me Generator */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <p className="project-title">Read Me Generator</p>
-              <a
-                href="https://github.com/D-Whipp/readme-generator"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-subtitle">Github Repository</p>
-              </a>
-              <a
-                href="https://github.com/D-Whipp/readme-generator"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <div className="project-img-setup read_me_gen_img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://github.com/D-Whipp/readme-generator"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Read Me Generator</p>
+                  <div className="project-img-setup read_me_gen_img"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/readme-generator"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-subtitle">Github Repository</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">Node.JS</li>
+                  <li className="project-p">Inquirer</li>
+                  <li className="project-p">FS</li>
+                </ul>
+                <p className="project-p">
+                  Here I built a Node Application which uses <br />
+                  Inquirer to prompt user input in the Terminal <br />
+                  and FS to take the user input to generate a <br />
+                  Readme.md file.
+                </p>
+              </div>
             </div>
           </div>
           {/* carousel item 9 */}
           {/* Team Profile Generator */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://github.com/D-Whipp/team-profile-generator"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Team Profile Generator</p>
-                <div className="project-img-setup team-pro-gen-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://github.com/D-Whipp/team-profile-generator"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Team Profile Generator</p>
+                  <div className="project-img-setup team-pro-gen-img"></div>
+                </a>
+              </div>
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/team-profile-generator"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">Node.JS</li>
+                  <li className="project-p">Jest</li>
+                  <li className="project-p">Inquirer</li>
+                </ul>
+                <p className="project-p">
+                  Using Node and Inquirer this Application interacts <br />
+                  with the user in the Terminal. After answering the <br />
+                  prompts this app will generate a profile for the <br />
+                  team.
+                </p>
+              </div>
             </div>
           </div>
 
