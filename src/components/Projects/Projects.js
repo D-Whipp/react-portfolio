@@ -380,14 +380,53 @@ function Projects() {
           {/* carousel item 13 | MVC Tech Blog */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://stark-reef-58838.herokuapp.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">MVC Tech Blog</p>
-                <div className="project-img-setup mvc-tech-blog-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://stark-reef-58838.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">MVC Tech Blog</p>
+                  <div className="project-img-setup mvc-tech-blog-img"></div>
+                </a>
+              </div>
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/the-tech-blog"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://stark-reef-58838.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                {/* <ul>
+                  <li className="project-p">HTML5</li>
+                  <li className="project-p">CSS3</li>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">Express</li>
+                  <li className="project-p">Handlebars</li>
+                  <li className="project-p">MySQL2</li>
+                  <li className="project-p">Sequelize</li>
+                  <li className="project-p">Jest</li>
+                </ul> */}
+                <p className="project-p">
+                  HTML5, CSS3, JavaScript, Express, Handlebars, MySql2, <br />
+                  Sequelize, Jest, and BCrypt.
+                </p>
+                <p className="project-p">
+                  Here I used the above technologies to build a Full Stack{" "}
+                  <br />
+                  CMS style blog. You can create an account. Create and <br />
+                  Delete your post as well. Still working on editing a post.
+                </p>
+              </div>
             </div>
           </div>
 
