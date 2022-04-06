@@ -433,14 +433,49 @@ function Projects() {
           {/* carousel item 14 | Full-Stack Project | Sports Vibes */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://cryptic-hamlet-34193.herokuapp.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Sports Vibes</p>
-                <div className="project-img-setup sports-vibes-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://cryptic-hamlet-34193.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Sports Vibes</p>
+                  <div className="project-img-setup sports-vibes-img"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/seanPatrickArnold/sports-vibes"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://cryptic-hamlet-34193.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">Express</li>
+                  <li className="project-p">MySQL2</li>
+                  <li className="project-p">Handlebars</li>
+                  <li className="project-p">Sequelize</li>
+                </ul>
+                <p className="project-p">
+                  A group project where users can create and <br />
+                  and link posts together. Other users can then <br />
+                  upvote the linked posts based on correlation.
+                </p>
+                <p className="project-p">
+                  My responsibilities included wireframing our website. <br />
+                  Researching and implementing a new technology, SASS. <br />
+                </p>
+              </div>
             </div>
           </div>
 
