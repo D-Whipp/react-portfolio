@@ -482,14 +482,41 @@ function Projects() {
           {/* carousel item 15 | Regex Tutorial */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://gist.github.com/D-Whipp/d08038c1b2d285ec92cc3c79f496b2ff"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Regex Tutorial</p>
-                <div className="project-img-setup regex-tut-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://gist.github.com/D-Whipp/d08038c1b2d285ec92cc3c79f496b2ff"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Regex Tutorial</p>
+                  <div className="project-img-setup regex-tut-img"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/regex-tutorial"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://gist.github.com/D-Whipp/d08038c1b2d285ec92cc3c79f496b2ff"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">Gist</li>
+                </ul>
+                <p className="project-p">
+                  A Gist Tutorial with the Regex Topic: <br />
+                  Matching an HTML Tag.
+                </p>
+              </div>
             </div>
           </div>
 
