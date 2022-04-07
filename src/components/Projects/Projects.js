@@ -569,14 +569,46 @@ function Projects() {
           {/* carousel item 18 | Book Search Engine */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://frozen-journey-26834.herokuapp.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Book Search Engine</p>
-                <div className="project-img-setup book-search-eng-img"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://frozen-journey-26834.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Book Search Engine</p>
+                  <div className="project-img-setup book-search-eng-img"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/book-search-engine"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://frozen-journey-26834.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">MongoDB</li>
+                  <li className="project-p">Mongoose</li>
+                  <li className="project-p">Node.JS</li>
+                  <li className="project-p">Express</li>
+                  <li className="project-p">GraphQL</li>
+                </ul>
+                <p className="project-p">
+                  Given the HTML and CSS as starter code, <br /> 
+                  I was tasked with writing the controllers <br />
+                  for the Back End of this application.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -585,6 +617,9 @@ function Projects() {
           {/* carousel item 19 | Star Talk | Final Project */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
+              <div className="project-img-link">
+                
+              </div>
               <a
                 href="https://obscure-woodland-80927.herokuapp.com/"
                 rel="noreferrer"
