@@ -525,14 +525,44 @@ function Projects() {
           {/* carousel item 17 | Budget Tracker */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
-              <a
-                href="https://intense-ravine-29652.herokuapp.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Budget Tracker</p>
-                <div className="project-img-setup budget_tracker_image"></div>
-              </a>
+              <div className="project-img-link">
+                <a
+                  href="https://intense-ravine-29652.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Budget Tracker</p>
+                  <div className="project-img-setup budget_tracker_image"></div>
+                </a>
+              </div>
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/budget-tracker"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://intense-ravine-29652.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">Express</li>
+                  <li className="project-p">Mongoose</li>
+                  <li className="project-p">MongoDB</li>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">Service Worker</li>
+                </ul>
+                <p className="project-p">
+                  Using a Service Worker this app helps <br />
+                  it's user keep track of their budget.
+                </p>
+              </div>
             </div>
           </div>
 
