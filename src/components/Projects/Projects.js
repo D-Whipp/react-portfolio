@@ -604,7 +604,7 @@ function Projects() {
                   <li className="project-p">GraphQL</li>
                 </ul>
                 <p className="project-p">
-                  Given the HTML and CSS as starter code, <br /> 
+                  Given the HTML and CSS as starter code, <br />
                   I was tasked with writing the controllers <br />
                   for the Back End of this application.
                 </p>
@@ -618,16 +618,46 @@ function Projects() {
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
               <div className="project-img-link">
-                
+                <a
+                  href="https://obscure-woodland-80927.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Star Talk</p>
+                  <div className="project-img-setup star_talk_image"></div>
+                </a>
               </div>
-              <a
-                href="https://obscure-woodland-80927.herokuapp.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <p className="project-title">Star Talk</p>
-                <div className="project-img-setup star_talk_image"></div>
-              </a>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/star-talk"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+                <a
+                  href="https://obscure-woodland-80927.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Deployed Site</p>
+                </a>
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">MongoDB</li>
+                  <li className="project-p">Mongoose</li>
+                  <li className="project-p">Express</li>
+                  <li className="project-p">React</li>
+                  <li className="project-p">GraphQL</li>
+                </ul>
+                <p className="project-p">
+                  Final Project. Here I created a Full Stack <br />
+                  Web App where Space Enthusiasts can all <br />
+                  come together to discuss everything Space <br />
+                  related.
+                </p>
+              </div>
             </div>
           </div>
         </div>
