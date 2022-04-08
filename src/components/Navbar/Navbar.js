@@ -66,7 +66,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://docs.google.com/document/d/1PajyFS85ZYu0WB6as7bPrMM4HNGvbPwNIKM44XK_AGo/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1Jy9tSvL4Vz3kQSIqHS7sitXvs6f2Jhyd17FMgox3Qpo/edit?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
