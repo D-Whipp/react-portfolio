@@ -344,7 +344,7 @@ nav ul li {
 .project-img-link a .project-img-setup {
   position: relative;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   /* background-position: center top; */
   height: 100%;
   width: 75%;
@@ -352,6 +352,10 @@ nav ul li {
   width: 100px; */
   margin: 0 auto;
 }
+/* 
+.img-left-top {
+  background-position: left top;
+} */
 
 .project-title {
   text-decoration: none;

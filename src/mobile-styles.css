@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+  .slide-size-container {
+    display: block;
+    height: 100%;
+    align-items: center;
+  }
+
+  .project-img-link {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .github-repo-link {
+    height: 50%;
+    width: 100%;
+  }
+}
