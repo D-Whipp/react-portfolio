@@ -39,8 +39,7 @@ const Header = () => {
         <a className="btn-main-offer" onClick={() => setIsToggled(!isToggled)}>
           Contact Me
         </a>
-        {/* <h2 className="btn-main-offer">Email me: dwhipp88@gmail.com</h2> */}
-        {/* <a className="btn-main-offer" href="mailto: dwhipp88@gmail.com">Email me - dwhipp88@gmail.com</a> */}
+
         {isToggled && <Contact></Contact>}
       </div>
     </div>
