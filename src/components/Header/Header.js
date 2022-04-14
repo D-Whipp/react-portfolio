@@ -36,9 +36,12 @@ const Header = () => {
           ></Typed>
         </a>
 
-        <a className="btn-main-offer" onClick={() => setIsToggled(!isToggled)}>
+        <btn
+          className="btn-main-offer"
+          onClick={() => setIsToggled(!isToggled)}
+        >
           Contact Me
-        </a>
+        </btn>
 
         {isToggled && <Contact></Contact>}
       </div>
