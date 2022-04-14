@@ -172,7 +172,7 @@ nav ul li {
 }
 
 /* ********* Media Queries ******* */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .particles-canvas {
     display: none;
   }
@@ -184,7 +184,7 @@ nav ul li {
   .typed-text {
     font-size: 1.7rem;
   }
-}
+} */
 
 /* ********* About Me ********** */
 .about-me {
@@ -230,51 +230,55 @@ nav ul li {
 /* sets slide's image */
 /* carousel item 1 | Code Refactor */
 .horiseon_image {
-  background: url(../src/images/project-images/resized-800W-px-horiseon-project.jpg)
-    no-repeat;
+  /* background: url(../src/images/project-images/resized-800W-px-horiseon-project.jpg)
+  no-repeat; */
+  background: url(../src/images/560by455/560-horiseon-project.png) no-repeat;
 }
 
 /* carousel item 2 | Professional Portfolio */
 .static_port_image {
-  background: url(../src/images/project-images/resized-800W-px-davids-avatar.jpg)
-    no-repeat;
+  /* background: url(../src/images/project-images/resized-800W-px-davids-avatar.jpg)
+    no-repeat; */
+  background: url(../src/images/560by455/560-davids-avatar.png) no-repeat;
 }
 
 /* carousel item 3 | Password Generator */
 .password_gen {
-  background: url(../src/images/project-images/resized-800W-px-Password-Generator.png)
-    no-repeat;
+  /* background: url(../src/images/project-images/resized-800W-px-Password-Generator.png)
+    no-repeat; */
+  background: url(../src/images/560by455/560-Password-Generator.png) no-repeat;
 }
 
 /* carousel item 4 | Code Quiz */
 .code_quiz {
-  background: url(../src/images/project-images/resized-800W-px-code-quiz.png)
-    no-repeat;
+  /* background: url(../src/images/project-images/resized-800W-px-code-quiz.png)
+    no-repeat; */
+  background: url(../src/images/560by455/560-code-quiz.png) no-repeat;
 }
 
 /* carousel item 5 | Work Day Scheduler */
 .work-day-scheduler {
-  background: url(../src/images/project-images/resized-800W-px-work-day-scheduler.png)
-    no-repeat;
+  /* background: url(../src/images/project-images/resized-800W-px-work-day-scheduler.png)
+    no-repeat; */
+  background: url(../src/images/560by455/560-work-day-scheduler.png) no-repeat;
 }
 
 /* carousel item 6 | Weather Dashboard | Coming Soon! */
 
 /* carousel item 7 | Interactive Front-End Project | Camping Buddy */
 .camping_buddy_image {
-  background: url(../src/images/project-images/resized-800W-px-campingBuddyScreenshot.png)
+  background: url(../src/images/560by455/560-campingBuddyScreenshot.png)
     no-repeat;
 }
 
 /* carousel item 8 | Read Me Generator */
 .read_me_gen_img {
-  background: url(../src/images/project-images/resized-800W-px-readme-gen.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-readme-gen.png) no-repeat;
 }
 
 /* carousel item 9 | Team Profile Generator */
 .team-pro-gen-img {
-  background: url(../src/images/project-images/resized-800W-px-team-profile-generator-img.png)
+  background: url(../src/images/560by455/560-team-profile-generator-img.png)
     no-repeat;
 }
 
@@ -282,50 +286,44 @@ nav ul li {
 
 /* carousel item 11 | Employee Tracker */
 .employee-tracker-img {
-  background: url(../src/images/project-images/resized-800W-px-employee-tracker-img.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-employee-tracker-img.png) no-repeat;
 }
 
 /* carousel item 12 | ORM E-Commerce Back-End | Coming Soon! */
 
 /* carousel item 13 | MVC Tech Blog */
 .mvc-tech-blog-img {
-  background: url(../src/images/project-images/resized-800W-px-mvc-tech-blog.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-mvc-tech-blog.png) no-repeat;
 }
 
 /* carousel item 14 | Sports Vibes | Group Project */
 .sports-vibes-img {
-  background: url(../src/images/project-images/resized-800W-px-SportsVibes.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-SportsVibes.png) no-repeat;
 }
 
 /* carousel item 15 | Regex Tutorial */
 .regex-tut-img {
-  background: url(../src/images/project-images/resized-800W-px-regex-tut-img.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-regex-tut-img.png) no-repeat;
 }
 
 /* carousel item 16 | Social Network API | Coming Soon! */
 
 /* carousel item 17 | Budget Tracker */
 .budget_tracker_image {
-  background: url(../src/images/project-images/resized-800W-px-budget-tracker-screenshot.png)
+  background: url(../src/images/560by455/560-budget-tracker-screenshot.png)
     no-repeat;
 }
 
 /* carousel item 18 | Book Search Engine */
 .book-search-eng-img {
-  background: url(../src/images/project-images/resized-800W-px-book-search-eng-img.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-book-search-eng.png) no-repeat;
 }
 
 /* carousel item 18 | Redux Store | Coming Soon! */
 
 /* carousel item 19 | Star Talk | Final Project */
 .star_talk_image {
-  background: url(../src/images/project-images/resized-800W-px-star-talk.png)
-    no-repeat;
+  background: url(../src/images/560by455/560-px-star-talk.png) no-repeat;
 }
 
 /* general container for slide images */
@@ -336,8 +334,7 @@ nav ul li {
 
 .project-img-link {
   height: 100%;
-  width: 50%
-  /* float: left; */
+  width: 50%;
 }
 
 .github-repo-link {
@@ -347,13 +344,18 @@ nav ul li {
 .project-img-link a .project-img-setup {
   position: relative;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  /* background-position: center top; */
   height: 100%;
   width: 75%;
   /* height: 100px;
   width: 100px; */
   margin: 0 auto;
 }
+/* 
+.img-left-top {
+  background-position: left top;
+} */
 
 .project-title {
   text-decoration: none;

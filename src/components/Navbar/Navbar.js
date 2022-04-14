@@ -39,6 +39,16 @@ const Navbar = () => {
                 About Me
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://github.com/D-Whipp"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </li>
             <li className="nav-item active">
               {/* <a className="nav-link" href="/">
                 Home
