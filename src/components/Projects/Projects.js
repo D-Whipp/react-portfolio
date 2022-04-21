@@ -691,6 +691,7 @@ function Projects() {
                   <li className="project-p">CSS3</li>
                   <li className="project-p">JavaScript</li>
                   <li className="project-p">JavaScript Routes</li>
+                  <li className="project-p">Node.js</li>
                 </ul>
                 <p className="project-p">
                   I created this project after completing part of a Udemy
