@@ -661,7 +661,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* carousel item 20 | Puppy Farm  */}
+          {/* carousel item 20 | Puppy Farm | Vanilla JavaScript Routes */}
           <div className="carousel-item carousel-item-two">
             <div className="slide-size-container">
               <div className="project-img-link">
