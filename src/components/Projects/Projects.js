@@ -660,6 +660,47 @@ function Projects() {
               </div>
             </div>
           </div>
+
+          {/* carousel item 20 | Puppy Farm  */}
+          <div className="carousel-item carousel-item-two">
+            <div className="slide-size-container">
+              <div className="project-img-link">
+                <a
+                  href="https://github.com/D-Whipp/puppy-farm/tree/main/puppy-farm"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Puppy Farm</p>
+                  <p className="project-p">Back End Project</p>
+                  <div className="project-img-setup puppy-farm-image"></div>
+                </a>
+              </div>
+
+              <div className="github-repo-link">
+                <a
+                  href="https://github.com/D-Whipp/puppy-farm/tree/main/puppy-farm"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="project-title">Github Repository</p>
+                </a>
+
+                <p className="project-subtitle">- Technologies Used -</p>
+                <ul>
+                  <li className="project-p">HTML5</li>
+                  <li className="project-p">CSS3</li>
+                  <li className="project-p">JavaScript</li>
+                  <li className="project-p">JavaScript Routes</li>
+                </ul>
+                <p className="project-p">
+                  I created this project after completing part of a Udemy
+                  course. My aim was practicing routes written in vanilla
+                  JavaScript. Here I created a custom route that will take users
+                  to a specified wiki page.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         {/* carousel control buttons */}
         <a

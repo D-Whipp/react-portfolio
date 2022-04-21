@@ -326,6 +326,11 @@ nav ul li {
   background: url(../src/images/560by455/560-px-star-talk.png) no-repeat;
 }
 
+/* carousel item 20 | Puppy Farm */
+.puppy-farm-image {
+  background: url(../src/images/560by455/560-puppy-farm-screenshot.png) no-repeat;
+}
+
 /* general container for slide images */
 /* .github-repo-link {
   float: right;
