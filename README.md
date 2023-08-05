@@ -3,9 +3,6 @@
 # Getting Started my React Portfolio App
 ### Front End App
 
-This app is deployed using Heroku.\
-You can view the deployed app [here](http://mighty-brook-32674.herokuapp.com/).
-
 ## Available Scripts
 
 If you clone the code you can navigate to the projects root directory and run:
